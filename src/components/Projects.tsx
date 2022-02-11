@@ -11,7 +11,9 @@ const Projects = () => {
         <a target="_blank" rel="noreferrer" href="https://github.com/kamyu1537/kbinxml-wasm">kbinxml (wasm)</a>
         <a target="_blank" rel="noreferrer" href="https://github.com/kamyu1537/lz77-wasm">lz77 (wasm)</a>
         <h3 className="dark:text-white mt-3 pt-1 border-t border-opacity-0 ">Unity</h3>
-        <a target="_blank" rel="noreferrer" href="https://github.com/kamyu1537/GTAvaCryptUTS">GTAvaCryptUTS</a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/kamyu1537/GTAvaCryptUTS">GTAvaCryptUTS (vrchat)</a>
+        <h3 className="dark:text-white mt-3 pt-1 border-t border-opacity-0 ">Discord</h3>
+        <a target="_blank" rel="noreferrer" href="https://discord.com/oauth2/authorize?client_id=803818878178033708&scope=bot&permissions=11264">Moji Bot (invite)</a>
       </div>
     </Card>
   )
