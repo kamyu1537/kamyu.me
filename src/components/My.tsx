@@ -7,7 +7,7 @@ const My = () => {
   return (
     <Card>
       <div className="w-32 h-32 bg-gray-300 overflow-hidden rounded-full mb-3 mx-auto">
-        <img className="w-full h-full object-cover" alt="" title="gravatar" src="https://www.gravatar.com/avatar/5b3ec40d9f3d438f67d71da1b3a6eb6b.png" />
+        <img className="w-full h-full object-cover" alt="" title="gravatar" src="https://www.gravatar.com/avatar/5b3ec40d9f3d438f67d71da1b3a6eb6b.png?size=128" />
       </div>
       <div className="text-lg">kamyu</div>
       <div className="text-slate-400 dark:text-slate-600 text-xs">@kamyu1537</div>
