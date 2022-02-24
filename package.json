@@ -19,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "install": "npm add husky",
+    "postinstall": "husky install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -58,6 +60,9 @@
     }
   },
   "lint-staged": {
-    ".{ts,tsx}": ["eslint --fix", "git add"]
+    ".{ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
