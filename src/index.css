@@ -2,29 +2,39 @@
 
 @tailwind base;
 @tailwind components;
-@tailwind colors;
 @tailwind utilities;
 @tailwind screens;
 
-body, #root {
+body {
   margin: 0;
   padding: 0;
   font-size: 16px;
   width: 100vw;
-  height: 100vh;
-  max-width: 100vw;
+  min-height: 100vh;
 }
 
 * {
   font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
 }
 
 h3 {
-  @apply font-bold text-lg;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
-#root {
-  @apply flex flex-col items-center justify-center;
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 1.5em;
+
   @apply bg-gradient-to-br from-purple-800 to-cyan-700;
 }
 

@@ -1,14 +1,11 @@
 import React from 'react';
 
-type Props = {
-  children: any;
-}
-const Card = ({ children }: Props) => {
+const Card = ({ children }: React.PropsWithChildren<object>) => {
   return (
-    <div className="backdrop-blur-xl bg-opacity-70 dark:bg-opacity-70 bg-white rounded-2xl mx-5 my-3 shadow-2xl px-12 py-5 text-center dark:bg-slate-900 dark:text-white">
+    <div className="backdrop-blur-xl bg-opacity-70 dark:bg-opacity-70 bg-white rounded-2xl  shadow-2xl text-center dark:bg-slate-900 dark:text-white w-full min-w-[unset] sm:min-w-[32em] px-12 py-5">
       {children}
     </div>
-  )
-}
+  );
+};
 
 export default Card;
